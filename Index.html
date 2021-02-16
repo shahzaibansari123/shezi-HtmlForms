@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Mass Training & Job Creation Program</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <center>
+        <img src="images/saylani-logo.png"" width="400" height="100">
+        <h1>Saylani Mass Training & Job Creation Program</h1>
+        <h2>Registration / Entry Test Form</h2>
+        <form action="http://www.example.com"></form>
+        <table border=0 cellpadding=2 cellspacing=16px>
+            <tr>
+                <td class="c1">
+                    <p class="tp" >Select Your Course*</p>
+                    <select class="course" name="Courses" required="required">
+                        <option value="Select Course" selected="selected">Select Course</option>
+                        <option value="IT Essential Fsd">IT Essential Fsd</option>
+                    </select>
+                </td>
+                <td class="c1">
+                    <p class="tp">Select Batch*</p>
+                    <select class="course" name="Batch" required="required">
+                        <option value="6" selected="selected">6</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <input class="name" type="text" placeholder="Your Name*" maxlength="18"  required="required">
+        <br/>
+        <font size="2" class="f" >Max characters allowed: 18</font>
+        <table border=0 cellpadding=2 cellspacing=16px>
+            <tr>
+                <td class="c1">
+                    <p class="tp" >Date of Birth*</p>
+                    <input class="DOB"  type="text" placeholder="dd" maxlength="2" size="1" required="required">
+                    <input class="DOB"   type="text" placeholder="mm" maxlength="2" size="1" required="required">
+                    <input class="DOB"  type="text" placeholder="yyyy" maxlength="4" size=1 required="required">
+                </td>
+                <td class="c1" >
+                    <p class="tp" >Age*</p>
+                    <input id="age"type="text" placeholder="Age" maxlength="2" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td class="c2" >Gender*</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender" value="male" checked="checked"/>Male
+                    <input type="radio" name="gender" value="female" disabled="disabled"/>Female
+                </td>
+                <td></td>
+        </table>
+        <input  class="name" type="number" placeholder="CNIC/B-Form*" maxlength="13"  required="required">
+        <br/>
+        <font size="2" class= "f" >e.g 4220123456789</font>
+        <br/><br/>
+        <input  class="name"  type="text" placeholder="Father's Name*" maxlength="18"  required="required">
+        <br/><br/><br/>
+        <input class="name"   type="number" placeholder="Father's/Guardian's CNIC*" maxlength="13"  required="required">
+        <br/>
+        <font size="2" class="f">e.g 4220123456789</font>
+        <br/><br/><br/>
+        <input class="name"  type="text" placeholder="Full and Permanent Address*" maxlength="40"  required="required">
+        <br/><br/><br/>
+        <input class="name" type="number" placeholder="Cell Number*" maxlength="13"  required="required">
+        <br/>
+        <font size="2" class="f">e.g 03301234567</font><br/><br/><br/>
+        <input class="name"  type="text" placeholder="Email*" maxlength="40"  required="required">
+        <br/>
+        <font size="2" class="f">Provide a valid, accessible email that we will use to contact you.</font>
+        <br/><br/><br/>
+        <table border=0 cellpadding=2 cellspacing=16px>
+            <tr>
+                <td class= "c2" >Last Qualification*</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="edu"  colspan=2 >
+                    <input type="radio" name="edu"  value="none" checked="checked"/>None 
+                    <input type="radio" name="edu"  value="Matric"/>Matric
+                    <input type="radio"  name="edu" value="Intermediate"/>Intermediate
+                    <input type="radio"  name="edu"  value="Bachelor"/>Bachelor
+                    <input type="radio" name="edu"  value="Master"/>Master   
+                    <input type="radio" name="edu"   value="Phd"/>Phd
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p class="tp">Upload your recent image (face front, without glasses and with a single-colored background)*</p>
+                    <input type="file" name="fileUpload" id="fileUpload">
+                    <br/><br/>
+                    <font size="3">Only png or jpg with size < 1mb is allowed</font>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <font >Availability* <br/></font>
+                <font size="2">Drag and drop class timings mentioned below as per your availibility and priority.</font>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <div id="slots" >
+            <div>
+                Priority # 1
+            </div>
+            <div style="margin-left: 20px;">
+                <p>Mon , Tues &amp; Wed.</p>
+                <p>3pm to 5pm</p>
+            </div>
+        </div>
+        <br/><br/>
+        <font size="3" class="f" >Declaration Undertaking*</font>
+        <table>
+            <tr>
+                <td>
+                    <ol>
+                        <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further,I will abide by my all the establish and future regulation and policies of SWIT</li><br/>
+                        <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be involved in any other activity, polical or ethic, but learning during my stay in the program.</li><br/>
+                        <li>Defiance will render my admission cancelled at any point in time.</li><br/>
+                        <li>Upon completion of course, I will complete the required project by SWIT.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox"> &nbsp;&nbsp; I agree with the above terms.<br/><br/><br/>
+                    <input class="submit" type="submit" value="submit"/> 
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <p class="font">Use Chrome or Firefox for best experience<p>
+        <p class="font">Created by<a href="mailto:ansarishahzaib567@gmail.com" >Shahzaib Ansari </a></p>
+        </form>
+    </center>
+</body>
+</html>
